@@ -8,7 +8,7 @@ import mongoose  from 'mongoose';
 async function startApolloServer({ typeDefs, resolvers }) {
     const configurations = {
         // Note: You may need sudo to run on port 443
-        production: { ssl: true, port: 4000, hostname: 'localhost' },
+        production: { ssl: true, port: 443, hostname: 'chat-graphql-api-px564z63x-lucasdasilvalima.vercel.app' },
         development: { ssl: false, port: 4000, hostname: 'localhost' },
     };
 
